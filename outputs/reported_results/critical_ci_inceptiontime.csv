@@ -1,0 +1,3 @@
+model,strategy,estimate,seg_lo,seg_hi,cluster_lo,cluster_hi
+inceptiontime,global,0.075,0.045,0.108,0.007,0.198
+inceptiontime,class_conditional,0.825,0.780,0.869,0.578,0.985

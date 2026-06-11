@@ -1,0 +1,8 @@
+clinical_group,train_seg,cal_seg,test_seg,train_pat,cal_pat,test_pat
+Normal,346960,76115,99225,401,87,87
+Tachy/Brady,91405,19946,56174,285,59,65
+AF/AFLT,141159,46442,58769,260,64,62
+Pacing/Block,125693,24270,12756,205,45,41
+Other,2132,1530,1562,58,14,20
+Critical,1242,134,268,56,11,14
+Total,708591,168437,228754,578,124,124

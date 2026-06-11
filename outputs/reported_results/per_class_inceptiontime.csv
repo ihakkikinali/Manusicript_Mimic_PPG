@@ -1,0 +1,8 @@
+model,cls,n,lac_global_cov,lac_global_size,lac_cc_cov,lac_cc_size,aps_global_cov
+inceptiontime,Critical,268,0.075,1.96,0.825,3.08,0.231
+inceptiontime,Other,1562,0.329,3.06,0.901,4.28,0.680
+inceptiontime,Normal,99225,0.884,2.64,0.876,3.86,0.946
+inceptiontime,Pacing/Block,12756,0.886,2.94,0.933,4.24,0.971
+inceptiontime,AF/AFLT,58769,0.912,2.57,0.874,3.60,0.974
+inceptiontime,Tachy/Brady,56174,0.937,1.98,0.929,2.67,0.979
+inceptiontime,OVERALL,228754,0.900,2.48,0.892,3.53,0.960

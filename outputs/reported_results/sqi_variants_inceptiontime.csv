@@ -1,0 +1,5 @@
+model,variant,coverage,mean_size,low_sqi_size
+inceptiontime,sqi_weighted,0.885,2.45,6.00
+inceptiontime,q0_full,0.903,2.62,6.00
+inceptiontime,sqi_stratified,0.898,2.45,3.46
+inceptiontime,q0_discard,0.898,2.45,

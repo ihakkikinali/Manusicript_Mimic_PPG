@@ -1,0 +1,3 @@
+model,accuracy,balanced_accuracy,macro_f1,critical_recall,critical_fn
+InceptionTime,0.650,0.388,0.385,0.004,267/268
+XGBoost,0.563,0.416,0.371,0.029,232/239

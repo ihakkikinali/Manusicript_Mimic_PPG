@@ -1,0 +1,5 @@
+setting,model,test_acc,global_cov,critical_global,critical_cc
+PPG-only,XGBoost,0.563,0.883,0.163,0.891
+PPG-only,InceptionTime,0.650,0.900,0.075,0.825
+PPG+ECG,XGBoost,0.665,0.903,0.146,0.874
+PPG+ECG,InceptionTime,0.710,0.905,0.403,0.899

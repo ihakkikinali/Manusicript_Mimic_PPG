@@ -1,0 +1,33 @@
+# Optional ECG-assisted sensitivity analysis (paper Section 5.8)
+data_root: "/path/to/MIMIC-III-Ext-PPG"
+output_dir: "./outputs"
+figure_dir: "./figs"
+fs: 125
+segment_length: 3750
+channels: ["PLETH", "II"]   # PPG + ECG (sensitivity analysis)
+ecg_assisted: true
+seed: 42
+train_frac: 0.70
+calibration_frac: 0.15
+test_frac: 0.15
+inner_val_frac: 0.15         # fraction of the TRAIN split held out (patient-disjoint) for early stopping
+min_segments_per_patient_eval: 3
+xgb:
+  n_estimators: 300
+  max_depth: 5
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.7
+  early_stopping_rounds: 20
+model:                       # InceptionTime (raw-waveform model)
+  name: "InceptionTime"
+  n_filters: 32
+  depth: 6
+  batch_size: 64
+  epochs: 30
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  samples_per_class: 3000
+conformal:
+  alpha: 0.10
+  sqi_gamma: 0.15

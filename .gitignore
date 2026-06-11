@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pt
+*.parquet
+*.npz
+venv/
+.DS_Store
+# ignore run outputs but keep the shipped reported_results CSVs
+outputs/*
+!outputs/reported_results/
+outputs/reported_results/*.parquet

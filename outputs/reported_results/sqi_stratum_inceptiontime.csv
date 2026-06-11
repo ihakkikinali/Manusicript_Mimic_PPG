@@ -1,0 +1,4 @@
+model,stratum,n,coverage,mean_size
+inceptiontime,high,184715,0.894,2.41
+inceptiontime,mixed,33264,0.923,2.70
+inceptiontime,low,10775,0.928,3.05
