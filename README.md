@@ -171,10 +171,5 @@ governed separately by the PhysioNet Credentialed Health Data License.
 > anonymized link. Restore the author in the published version.
 
 ```bibtex
-@article{kinalioglu2026conformal,
-  title  = {Conformal Reliability Assessment of PPG-Based ICU Arrhythmia
-            Classification under Class Imbalance and Patient Heterogeneity},
-  author = {Kinalioglu, Ismail Hakki},
-  year   = {2026}
-}
+anonymous
 ```
